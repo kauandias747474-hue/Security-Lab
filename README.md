@@ -35,16 +35,26 @@
 ## 🔬 Practical Research | Áreas de Pesquisa
 
 ### 🛠️ Low-Level Security (C)
-<img align="right" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
+<img align="right" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" />
 
 - **Focus:** Memory corruption, Buffer Overflows, and Pointer Safety.
 - *Foco: Corrupção de memória, Buffer Overflows e segurança de ponteiros.*
 
+<br>
+
 ### ☕ Backend & Logic (Java)
-<img align="right" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+<img align="right" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" />
 
 - **Focus:** Secure API patterns, Authentication flaws, and Logic audits.
 - *Foco: Padrões de API segura, falhas de autenticação e auditoria de lógica.*
+
+<br>
+
+### 🌐 Web & Fullstack (JS)
+<img align="right" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
+
+- **Focus:** OWASP Top 10, XSS (Cross-Site Scripting), and Data Sanitization.
+- *Foco: OWASP Top 10, XSS e sanitização de dados.*
 
 ---
 
@@ -54,13 +64,14 @@
 | :--- | :--- | :--- |
 | `src/C/` | Exploit analysis in C | Análise de exploits em C |
 | `src/Java/` | Secure backend patterns | Padrões de backend seguro |
+| `src/JS/` | Web security & XSS research | Segurança Web e pesquisa de XSS |
 | `docs/reports/` | Technical write-ups | Relatórios técnicos |
 
 ---
 
 ## ⚠️ Ethical Disclaimer
-**EN:** This repository is for educational and ethical security research purposes only.  
-**PT:** Todo o conteúdo deste repositório é destinado exclusivamente para fins educativos e de pesquisa ética.
+**EN:** This repository is for educational and ethical security research purposes only. I do not support or encourage illegal activities.  
+**PT:** Todo o conteúdo deste repositório é destinado exclusivamente para fins educativos e de pesquisa ética. Não apoio ou encorajo atividades ilegais.
 
 ---
 <p align="center">
