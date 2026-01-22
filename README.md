@@ -40,6 +40,12 @@
 - **Focus:** Memory corruption, Buffer Overflows, and Pointer Safety.
 - *Foco: Corrupção de memória, Buffer Overflows e segurança de ponteiros.*
 
+### 🛠️ Lab Environment
+<img align="right" width="100" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kalilinux/kalilinux-original.svg" />
+
+**EN:** Research conducted on Kali Linux...
+**PT:** Pesquisa realizada no Kali Linux...
+
 ### ☕ Backend & Logic (Java)
 <img align="right" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
 
@@ -53,6 +59,7 @@
 - *Foco: OWASP Top 10, XSS, SQL Injection e sanitização de dados.*
 
 ---
+
 
 ## 📂 Laboratory Structure | Estrutura
 
