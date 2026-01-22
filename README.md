@@ -14,15 +14,15 @@
   <img src="https://img.shields.io/badge/Languages-🇺🇸%20EN%20|%20🇩🇪%20DE%20|%20🇪🇸%20ES-white?style=flat-square" alt="Languages">
 </p>
 
-**EN:** A specialized laboratory for cybersecurity research, focusing on the intersection between low-level logic (C) and secure backend architectures (Java). This space documents vulnerability analysis, exploit mitigation, and code auditing conducted in a Kali Linux environment.
+**EN:** A specialized laboratory for cybersecurity research, focusing on the intersection between low-level logic (C) and secure backend architectures (Java). This space documents vulnerability analysis, exploit mitigation, and code auditing conducted in a **Kali Linux** environment.
 
-**PT:** Um laboratório especializado em pesquisa de cibersegurança, com foco na intersecção entre lógica de baixo nível (C) e arquiteturas seguras de backend (Java). Este espaço documenta análises de vulnerabilidades, mitigação de exploits e auditoria de código realizados em ambiente Kali Linux.
+**PT:** Um laboratório especializado em pesquisa de cibersegurança, com foco na intersecção entre lógica de baixo nível (C) e arquiteturas seguras de backend (Java). Este espaço documenta análises de vulnerabilidades, mitigação de exploits e auditoria de código realizados em ambiente **Kali Linux**.
 
 ---
 
 ## 🛠️ Environment & Tooling | Ambiente e Ferramentas
 
-**EN:** All research is conducted using **Kali Linux** to simulate real-world attack and defense scenarios.
+**EN:** All research is conducted using **Kali Linux** to simulate real-world attack and defense scenarios.  
 **PT:** Todas as pesquisas são realizadas utilizando o **Kali Linux** para simular cenários reais de ataque e defesa.
 
 * **Analysis:** GDB (GNU Debugger), EDB-Debugger.
@@ -35,45 +35,32 @@
 ## 🔬 Practical Research | Áreas de Pesquisa
 
 ### 🛠️ Low-Level Security (C)
-<img align="right" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
+<img align="right" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
 
 - **Focus:** Memory corruption, Buffer Overflows, and Pointer Safety.
 - *Foco: Corrupção de memória, Buffer Overflows e segurança de ponteiros.*
 
-### 🛠️ Lab Environment
-<img align="right" width="100" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kalilinux/kalilinux-original.svg" />
-
-**EN:** Research conducted on Kali Linux...
-**PT:** Pesquisa realizada no Kali Linux...
-
 ### ☕ Backend & Logic (Java)
-<img align="right" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+<img align="right" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
 
 - **Focus:** Secure API patterns, Authentication flaws, and Logic audits.
 - *Foco: Padrões de API segura, falhas de autenticação e auditoria de lógica.*
 
-### 🌐 Web Ecosystem (Fullstack)
-<img align="right" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-
-- **Focus:** OWASP Top 10, XSS, SQL Injection, and Data Sanitization.
-- *Foco: OWASP Top 10, XSS, SQL Injection e sanitização de dados.*
-
 ---
-
 
 ## 📂 Laboratory Structure | Estrutura
 
 | Folder | Content (EN) | Conteúdo (PT) |
 | :--- | :--- | :--- |
-| `src/C/` | Exploit analysis and memory safety | Análise de exploits e segurança de memória |
+| `src/C/` | Exploit analysis in C | Análise de exploits em C |
 | `src/Java/` | Secure backend patterns | Padrões de backend seguro |
-| `docs/reports/` | Technical write-ups & logs | Relatórios técnicos e logs |
+| `docs/reports/` | Technical write-ups | Relatórios técnicos |
 
 ---
 
 ## ⚠️ Ethical Disclaimer
-**EN:** This repository is for educational and ethical security research purposes only. I do not support or encourage illegal activities.  
-**PT:** Todo o conteúdo deste repositório é destinado exclusivamente para fins educativos e de pesquisa ética. Não apoio ou encorajo atividades ilegais.
+**EN:** This repository is for educational and ethical security research purposes only.  
+**PT:** Todo o conteúdo deste repositório é destinado exclusivamente para fins educativos e de pesquisa ética.
 
 ---
 <p align="center">
