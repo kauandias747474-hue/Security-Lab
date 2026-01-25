@@ -74,6 +74,24 @@
 **PT:** Todo o conteúdo deste repositório é destinado exclusivamente para fins educativos e de pesquisa ética. Não apoio ou encorajo atividades ilegais.
 
 ---
-<p align="center">
-  <i>"Understanding the flaw is the first step to building the shield."</i>
-</p>
+## 👨‍💻 Author & Engineering Mindset | Autoria e Engenharia
+**Kauan Oliveira** - *Systems & Security Engineer*
+
+![Kali Linux](https://img.shields.io/badge/Kali-Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+![GDB Debugging](https://img.shields.io/badge/GDB-Debugging-314159?style=for-the-badge&logo=gnu&logoColor=white)
+![Auditing](https://img.shields.io/badge/Audit-Metrology-blueviolet?style=for-the-badge)
+
+**PT-BR:** Laboratório dedicado à análise técnica e forense digital. O fluxo de trabalho envolve a decomposição de binários e fluxos de rede, mapeados manualmente em papel A4 para identificar falhas de lógica. As pesquisas são validadas em ambiente controlado para garantir eficácia defensiva.
+
+**EN-US:** Lab dedicated to technical analysis and digital forensics. The workflow involves decomposing binaries and network flows, manually mapped on A4 paper to identify logic flaws. Research is validated in a controlled environment to ensure defensive effectiveness.
+
+### 🎯 Objective
+Atualmente focado em **Freelance de Alta Performance** e **Pesquisa em Bug Bounty**. 
+
+### 📩 Connect with Me
+- **LinkedIn:** [Kauan Oliveira](https://www.linkedin.com/in/kauan-oliveira-324264378/)
+- **Bug Bounty Portfolio:** [HackerOne/Profile]
+- **Professional Email:** [Seu Email]
+---
+*Developed in 2026 by Kauan Oliveira / Feito em 2026 por Kauan Oliveira*
+
