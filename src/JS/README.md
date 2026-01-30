@@ -1,16 +1,19 @@
-# Web Hacking & Automation (JavaScript) ⚡
+# Security Lab - JavaScript (Web) ⚡
 
-Scripts em JavaScript para automação de tarefas no Kali Linux e estudos de vulnerabilidades Client-Side.
+Este diretório contém pesquisas sobre segurança web e exploração de vulnerabilidades client-side e server-side (Node.js).
 
-## 🛠 Ambiente de Trabalho
-- **Runtime**: `node.js`
-- **Browser**: Chromium (Kali flavor) para testes de XSS.
+**Conteúdo:** Segurança web e pesquisa sobre XSS | Segurança Web e pesquisa de XSS.  
+**Foco:** OWASP Top 10, XSS (Cross-Site Scripting) e higienização de dados (sanitização).
 
-## 🎯 Foco de Pesquisa
-- **Bug Bounty Automation**: Scripts para filtrar subdomínios e buscar segredos em arquivos `.js` estáticos.
-- **Prototype Pollution**: Pesquisa de falhas em objetos Node.js.
-- **XSS Payloads**: Coleção de vetores para bypass de WAF.
+---
 
-## 🚀 Como Executar (Automação Node)
-```bash
-node recon_parser.js --target example.com
+# English Version
+This directory contains research on web security and exploitation of client-side and server-side (Node.js) vulnerabilities.
+
+**Content:** Web security and XSS research.  
+**Focus:** OWASP Top 10, XSS (Cross-Site Scripting), and data sanitization.
+
+## 🚀 Lab Tools (Kali)
+* `Node.js` / `npm` para testes de ambiente.
+* `Chromium` (Kali flavor) para debug de payloads XSS.
+* 
