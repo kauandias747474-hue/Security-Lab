@@ -1,17 +1,16 @@
+# Web Hacking & Automation (JavaScript) ⚡
 
-# Enterprise Security Lab (Java) ☕
-
-Laboratório voltado para a análise de falhas em aplicações de larga escala, comuns em programas de Bug Bounty corporativos.
+Scripts em JavaScript para automação de tarefas no Kali Linux e estudos de vulnerabilidades Client-Side.
 
 ## 🛠 Ambiente de Trabalho
-- **Runtime**: OpenJDK 17+ (Kali Linux default)
-- **Tools**: `burpsuite` (para interceptar tráfego de apps Java), `nmap` (scripts NSE para Java RMI).
+- **Runtime**: `node.js`
+- **Browser**: Chromium (Kali flavor) para testes de XSS.
 
 ## 🎯 Foco de Pesquisa
-- **Deserilização Insegura**: Como objetos maliciosos podem executar comandos no servidor.
-- **Log4Shell & Dependency Analysis**: Análise de vulnerabilidades em bibliotecas externas.
+- **Bug Bounty Automation**: Scripts para filtrar subdomínios e buscar segredos em arquivos `.js` estáticos.
+- **Prototype Pollution**: Pesquisa de falhas em objetos Node.js.
+- **XSS Payloads**: Coleção de vetores para bypass de WAF.
 
-## 🚀 Como Executar
+## 🚀 Como Executar (Automação Node)
 ```bash
-javac VulnerableApp.java
-java VulnerableApp
+node recon_parser.js --target example.com
