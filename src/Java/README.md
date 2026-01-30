@@ -1,16 +1,19 @@
-# Enterprise Security Lab (Java) ☕
+# Security Lab - Java (Backend) ☕
 
-Laboratório voltado para a análise de falhas em aplicações de larga escala, comuns em programas de Bug Bounty corporativos.
+Este diretório foca em padrões de backend seguro e na auditoria de aplicações empresariais executadas via JVM no Kali Linux.
 
-## 🛠 Ambiente de Trabalho
-- **Runtime**: OpenJDK 17+ (Kali Linux default)
-- **Tools**: `burpsuite` (para interceptar tráfego de apps Java), `nmap` (scripts NSE para Java RMI).
+**Conteúdo:** Padrões de backend seguros | Padrões de backend seguro.  
+**Foco:** Padrões de API seguros, falhas de autenticação e auditorias de lógica.
 
-## 🎯 Foco de Pesquisa
-- **Deserilização Insegura**: Como objetos maliciosos podem executar comandos no servidor.
-- **Log4Shell & Dependency Analysis**: Análise de vulnerabilidades em bibliotecas externas.
+---
 
-## 🚀 Como Executar
-```bash
-javac VulnerableApp.java
-java VulnerableApp
+# English Version
+This directory focuses on secure backend patterns and auditing enterprise applications running via JVM on Kali Linux.
+
+**Content:** Secure backend patterns.  
+**Focus:** Secure API patterns, authentication flaws, and logic audits.
+
+## 🚀 Lab Tools (Kali)
+* `OpenJDK` / `javac` para execução e build.
+* `Burp Suite` para análise de requisições de API e bypass de autenticação.
+* 
