@@ -1,18 +1,19 @@
+# Security Lab - C (Low-Level) 🐧
 
-# Low-Level Security Lab (C) 🐧
+Este diretório é dedicado à análise de exploração em C, focando em como o software interage diretamente com a memória no ambiente Kali Linux.
 
-Este diretório contém estudos de exploração de binários e manipulação de memória realizados no **Kali Linux**.
+**Tópicos abordados:** Corrupção de memória, estouro de buffer e segurança de ponteiros.  
+**Foco:** Corrupção de memória, Buffer Overflows e segurança de ponteiros.
 
-## 🛠 Ambiente de Testes
-- **OS**: Kali Linux
-- **Compiler**: `gcc`
-- **Debuggers**: `gdb` (com plugin PEDA ou GEF)
+---
 
-## 🎯 Foco de Pesquisa
-- **Buffer Overflow**: Estudo de estouro de pilha e sobrescrita de endereços de retorno.
-- **Memory Management**: Identificação de Memory Leaks e Dangling Pointers.
+# English Version
+This directory is dedicated to C exploitation analysis, focusing on how software interacts directly with memory within the Kali Linux environment.
 
-## 🚀 Como Executar (Exemplo de Compilação)
-Para testar vulnerabilidades desativando as proteções de memória do Kali:
-```bash
-gcc -fno-stack-protector -z execstack lab_vulnerable.c -o lab_vulnerable
+**Topics covered:** Memory corruption, buffer overflows, and pointer security.  
+**Focus:** Memory corruption, Buffer Overflows, and pointer security.
+
+## 🚀 Lab Tools (Kali)
+* `gcc` para compilação.
+* `gdb` / `edb` para análise de registradores e pilha.
+* 
