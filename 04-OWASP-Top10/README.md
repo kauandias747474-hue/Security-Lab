@@ -1,16 +1,60 @@
-# 🎯 OWASP Top 10 Research & Labs
+# 🎯 OWASP Top 10 Research & Labs | Pesquisa e Laboratórios OWASP
 
-Este diretório é dedicado ao estudo prático das 10 vulnerabilidades mais críticas em aplicações web, conforme definido pela OWASP. O foco aqui é entender como identificar, explorar e mitigar essas falhas em cenários reais de Bug Bounty.
+**EN:** This module is the core of web security research. It documents my practical journey through the 10 most critical security risks to web applications. Each folder contains Proof of Concepts (PoC), bypass techniques, and remediation strategies.
+**PT:** Este módulo é o núcleo da pesquisa de segurança web. Ele documenta minha jornada prática pelos 10 riscos de segurança mais críticos para aplicações web. Cada pasta contém Provas de Conceito (PoC), técnicas de bypass e estratégias de remediação.
 
-## 📋 Categorias em Foco
-1. **A01:2021-Broken Access Control:** Testes de IDOR, elevação de privilégio e bypass de autorização.
-2. **A03:2021-Injection:** Laboratórios de SQLi, Command Injection e SSTI (Server-Side Template Injection).
-3. **A10:2021-SSRF:** Pesquisa sobre Server-Side Request Forgery em infraestruturas modernas.
+---
 
-## 🛠️ Ferramentas Utilizadas
-* **Burp Suite:** Interceptação e repetidor de requisições.
-* **Ffuf:** Fuzzing de parâmetros e diretórios.
-* **SQLMap:** Automação de testes de injeção SQL.
+## 📂 Risk Categories | Categorias de Risco
 
-## 📖 Como estudar este módulo
-Cada subpasta contém um cenário de laboratório, o payload utilizado para a exploração e a recomendação de correção (remediation).
+### A01:2021 - Broken Access Control (Controle de Acesso Quebrado)
+* **EN:** Focus on IDOR (Insecure Direct Object Reference), Privilege Escalation, and Path Traversal.
+* **PT:** Foco em IDOR, Escalada de Privilégio e Path Traversal.
+
+### A02:2021 - Cryptographic Failures (Falhas Criptográficas)
+* **EN:** Identifying sensitive data exposure, weak hashing (MD5/SHA1), and cleartext transmission (HTTP/FTP).
+* **PT:** Identificação de exposição de dados sensíveis, hashes fracos e transmissão em texto claro.
+
+### A03:2021 - Injection (Injeção)
+* **EN:** Deep dive into SQLi (Error-based, Blind, Time-based), Command Injection (RCE), and XSS (Cross-Site Scripting).
+* **PT:** Estudo profundo de SQLi, Injeção de Comando (RCE) e XSS.
+
+### A04:2021 - Insecure Design (Design Inseguro)
+* **EN:** Analyzing architectural flaws that cannot be fixed by simple patching.
+* **PT:** Análise de falhas arquiteturais que não podem ser corrigidas por simples patches.
+
+### A05:2021 - Security Misconfiguration (Configuração Incorreta)
+* **EN:** Testing for default credentials, open S3 buckets, and verbose error messages.
+* **PT:** Testes de credenciais padrão, buckets S3 abertos e mensagens de erro detalhadas.
+
+### A06:2021 - Vulnerable and Outdated Components
+* **EN:** Researching CVEs in old libraries, frameworks (Log4Shell), and CMS plugins.
+* **PT:** Pesquisa de CVEs em bibliotecas antigas, frameworks e plugins de CMS.
+
+### A07:2021 - Identification and Authentication Failures
+* **EN:** Bypassing Multi-Factor Authentication (MFA), Brute-forcing, and Session Hijacking.
+* **PT:** Bypass de MFA, Brute-force e Sequestro de Sessão (Session Hijacking).
+
+### A08:2021 - Software and Data Integrity Failures
+* **EN:** Exploiting insecure deserialization and untrusted CI/CD pipelines.
+* **PT:** Exploração de deserialização insegura e pipelines de CI/CD não confiáveis.
+
+### A09:2021 - Security Logging and Monitoring Failures
+* **EN:** Studying how attackers hide their presence and why monitoring fails.
+* **PT:** Estudo de como atacantes escondem sua presença e por que o monitoramento falha.
+
+### A10:2021 - SSRF (Server-Side Request Forgery)
+* **EN:** Exploiting servers to make internal requests to the infrastructure (Cloud metadata, internal APIs).
+* **PT:** Exploração de servidores para realizar requisições internas (metadados de Cloud, APIs internas).
+
+---
+
+## 🛠️ Methodology | Metodologia
+1. **Discovery:** Manual mapping and automated fuzzing.
+2. **Exploitation:** Developing a clean PoC to demonstrate business impact.
+3. **Mitigation:** Documenting the secure code fix for the identified flaw.
+
+---
+<p align="center">
+  <b>Focus: Bug Bounty & Freelance High-Performance Auditing</b>
+</p>
