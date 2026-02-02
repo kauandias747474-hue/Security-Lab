@@ -104,5 +104,46 @@ Atualmente focado em **Freelance de Alta Performance** e **Pesquisa em Bug Bount
 - **Bug Bounty Portfolio:** [HackerOne/Profile]
 - **Professional Email:** [Seu Email]
 ---
+---
+
+## ⚖️ Ethical Conduct & Responsible Disclosure | Conduta Ética
+
+**EN:** This laboratory operates under the strict principles of **Ethical Hacking**. The goal is to identify vulnerabilities to help organizations strengthen their security posture.
+* **Authorization:** No testing is performed without explicit written consent or a valid Bug Bounty program scope.
+* **Integrity:** Research is focused on Proof of Concepts (PoC) that demonstrate impact without compromising user data or service stability.
+* **Reporting:** I follow responsible disclosure guidelines, ensuring developers have time to patch flaws before any public discussion.
+
+**PT:** Este laboratório opera sob os princípios rigorosos do **Hacking Ético**. O objetivo é identificar vulnerabilidades para ajudar organizações a fortalecerem sua segurança.
+* **Autorização:** Nenhum teste é realizado sem consentimento explícito por escrito ou sem estar no escopo de um programa de Bug Bounty válido.
+* **Integridade:** As pesquisas focam em Provas de Conceito (PoC) que demonstram o impacto sem comprometer dados de usuários ou a estabilidade dos serviços.
+* **Divulgação:** Sigo as diretrizes de divulgação responsável, garantindo que os desenvolvedores tenham tempo para corrigir as falhas antes de qualquer discussão pública.
+
+---
+
+## 🎯 Professional Focus | Foco Profissional
+
+**EN:** Dedicated to mastering the transition from source code analysis to advanced exploitation. Current priority:
+1.  **Bug Bounty:** Identifying high-impact vulnerabilities in global programs.
+2.  **Security Consulting:** High-performance audits for Web and API infrastructures.
+3.  **Security Engineering:** Designing and implementing robust mitigation strategies.
+
+**PT:** Dedicado a dominar a transição da análise de código-fonte para a exploração avançada. Prioridades atuais:
+1.  **Bug Bounty:** Identificação de vulnerabilidades de alto impacto em programas globais.
+2.  **Consultoria de Segurança:** Auditorias de alta performance em infraestruturas Web e API.
+3.  **Engenharia de Segurança:** Projetar e implementar estratégias de mitigação robustas.
+
+---
+
+## 🛡️ Legal Disclaimer
+**EN:** I am not responsible for any misuse of the information or tools contained in this repository. Use them at your own risk for legal and educational purposes only.
+**PT:** Não me responsabilizo pelo mau uso das informações ou ferramentas contidas neste repositório. Utilize-as por sua conta e risco, estritamente para fins legais e educativos.
+
+---
+<p align="center">
+  <i>"Deep understanding is the best firewall."</i><br>
+  <b>Developed with ☕ and 🐉 Kali Linux | 2026</b>
+</p>
+---
+
 *Developed in 2026 by Kauan Oliveira / Feito em 2026 por Kauan Oliveira*
 
