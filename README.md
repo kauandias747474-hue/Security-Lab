@@ -57,16 +57,27 @@
 - *Foco: OWASP Top 10, XSS e sanitização de dados.*
 
 ---
-
 ## 📂 Laboratory Structure | Estrutura
 
 | Folder | Content (EN) | Conteúdo (PT) |
 | :--- | :--- | :--- |
-| `src/C/` | Exploit analysis in C | Análise de exploits em C |
-| `src/Java/` | Secure backend patterns | Padrões de backend seguro |
-| `src/JS/` | Web security & XSS research | Segurança Web e pesquisa de XSS |
-| `docs/reports/` | Technical write-ups | Relatórios técnicos |
-
+| `src/01-JS-Fullstack/` | JS security & Prototype Pollution | Segurança JS e Prototype Pollution |
+| `src/02-Java-Backend/` | Secure API patterns & Deserialization | Padrões de API e Deserialização |
+| `src/03-C-Low-Level/` | Exploit analysis & Memory Corruption | Análise de exploits e Corrupção de Memória |
+| `src/04-OWASP-Top10/` | OWASP vulnerability labs | Laboratórios de vulnerabilidades OWASP |
+| `src/05-API-Security/` | BOLA, Mass Assignment & GraphQL | BOLA, Mass Assignment e GraphQL |
+| `src/06-Mobile-Sec/` | Frida scripts & APK static analysis | Scripts Frida e análise estática de APK |
+| `src/07-Cryptography/` | JWT attacks & Hash cracking | Ataques em JWT e quebra de hashes |
+| `src/08-Kali-Tools/` | Tool mastery (John, Metasploit, Nmap) | Domínio de ferramentas do Kali |
+| `src/09-Kali-Auto/` | Bash Recon & Automation scripts | Scripts Bash de Recon e Automação |
+| `src/10-Payloads/` | Custom wordlists & Bypass strings | Wordlists e strings de bypass customizadas |
+| `src/11-Env-Config/` | Kali Hardening & Dotfiles | Hardening do Kali e Dotfiles |
+| `src/12-Offensive-Ops/` | Red Team & Social Engineering | Red Team e Engenharia Social |
+| `src/13-Defensive/` | WAF rules & Patching research | Regras de WAF e pesquisa de correções |
+| `src/14-Network-Exp/` | Pivoting & MITM research | Pesquisa de Pivoting e MITM |
+| `src/15-Cloud-Infra/` | AWS/Azure & Container Security | Segurança de Nuvem e Containers |
+| `docs/cheat-sheets/` | Quick commands & Methodology | Comandos rápidos e Metodologia |
+| `docs/reports/` | Technical write-ups & Bug reports | Relatórios técnicos e de bugs |
 ---
 
 ## ⚠️ Ethical Disclaimer
