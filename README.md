@@ -125,15 +125,14 @@
 * **LinkedIn:** [Kauan Oliveira](https://www.linkedin.com/in/kauan-oliveira-324264378/)
 * **Bug Bounty Portfolio:** [HackerOne/Profile]
 
----
 
----
+
+
  <p align="center">
   <i>"Deep understanding is the best firewall."</i><br>
   <i>"O entendimento profundo é o melhor firewall."</i><br><br>
   <b>Built with ☕ and 🐉 Kali Linux</b>
-</p> **
----
+</p> 
 
 *Developed in 2026 by Kauan Oliveira / Feito em 2026 por Kauan Oliveira*
 
