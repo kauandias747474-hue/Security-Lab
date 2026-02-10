@@ -123,7 +123,7 @@
 
 ### 📩 Connect with Me
 * **LinkedIn:** [Kauan Oliveira](https://www.linkedin.com/in/kauan-oliveira-324264378/)
-* **Bug Bounty Portfolio:** [HackerOne/Profile]
+* **Bug Bounty Portfolio:** https://yeswehack.com/user/profile#latest-hacktivity
 ---
 
 
