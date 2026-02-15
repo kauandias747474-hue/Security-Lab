@@ -1,60 +1,46 @@
-# 🎯 OWASP Top 10 Research & Labs | Pesquisa e Laboratórios OWASP
+# 🎯 OWASP Top 10 Research & Labs | Pesquisa de Segurança de Sistemas
 
-**EN:** This module is the core of web security research. It documents my practical journey through the 10 most critical security risks to web applications. Each folder contains Proof of Concepts (PoC), bypass techniques, and remediation strategies.
-**PT:** Este módulo é o núcleo da pesquisa de segurança web. Ele documenta minha jornada prática pelos 10 riscos de segurança mais críticos para aplicações web. Cada pasta contém Provas de Conceito (PoC), técnicas de bypass e estratégias de remediação.
+### 🇧🇷 Framework de Pesquisa e Engenharia Defensiva
+Este módulo representa o núcleo da minha pesquisa em segurança de software. Ele documenta uma análise técnica profunda dos riscos mais críticos para aplicações modernas, conforme o padrão global da OWASP. Cada diretório contém **Ambientes Controlados (PoCs)**, análises de vulnerabilidades em nível de sistema e, o mais importante, **Arquiteturas de Correção** para mitigar riscos estruturais e garantir a integridade do ciclo de vida do software.
 
----
-
-## 📂 Risk Categories | Categorias de Risco
-
-### A01:2021 - Broken Access Control (Controle de Acesso Quebrado)
-* **EN:** Focus on IDOR (Insecure Direct Object Reference), Privilege Escalation, and Path Traversal.
-* **PT:** Foco em IDOR, Escalada de Privilégio e Path Traversal.
-
-### A02:2021 - Cryptographic Failures (Falhas Criptográficas)
-* **EN:** Identifying sensitive data exposure, weak hashing (MD5/SHA1), and cleartext transmission (HTTP/FTP).
-* **PT:** Identificação de exposição de dados sensíveis, hashes fracos e transmissão em texto claro.
-
-### A03:2021 - Injection (Injeção)
-* **EN:** Deep dive into SQLi (Error-based, Blind, Time-based), Command Injection (RCE), and XSS (Cross-Site Scripting).
-* **PT:** Estudo profundo de SQLi, Injeção de Comando (RCE) e XSS.
-
-### A04:2021 - Insecure Design (Design Inseguro)
-* **EN:** Analyzing architectural flaws that cannot be fixed by simple patching.
-* **PT:** Análise de falhas arquiteturais que não podem ser corrigidas por simples patches.
-
-### A05:2021 - Security Misconfiguration (Configuração Incorreta)
-* **EN:** Testing for default credentials, open S3 buckets, and verbose error messages.
-* **PT:** Testes de credenciais padrão, buckets S3 abertos e mensagens de erro detalhadas.
-
-### A06:2021 - Vulnerable and Outdated Components
-* **EN:** Researching CVEs in old libraries, frameworks (Log4Shell), and CMS plugins.
-* **PT:** Pesquisa de CVEs em bibliotecas antigas, frameworks e plugins de CMS.
-
-### A07:2021 - Identification and Authentication Failures
-* **EN:** Bypassing Multi-Factor Authentication (MFA), Brute-forcing, and Session Hijacking.
-* **PT:** Bypass de MFA, Brute-force e Sequestro de Sessão (Session Hijacking).
-
-### A08:2021 - Software and Data Integrity Failures
-* **EN:** Exploiting insecure deserialization and untrusted CI/CD pipelines.
-* **PT:** Exploração de deserialização insegura e pipelines de CI/CD não confiáveis.
-
-### A09:2021 - Security Logging and Monitoring Failures
-* **EN:** Studying how attackers hide their presence and why monitoring fails.
-* **PT:** Estudo de como atacantes escondem sua presença e por que o monitoramento falha.
-
-### A10:2021 - SSRF (Server-Side Request Forgery)
-* **EN:** Exploiting servers to make internal requests to the infrastructure (Cloud metadata, internal APIs).
-* **PT:** Exploração de servidores para realizar requisições internas (metadados de Cloud, APIs internas).
+### 🇺🇸 Security Engineering & Defensive Research Framework
+This module represents the core of my software security research. It documents a deep technical analysis of the most critical risks for modern applications, following the OWASP global standard. Each directory contains **Controlled Environments (PoCs)**, system-level vulnerability analysis, and, most importantly, **Remediation Architectures** to mitigate structural risks and ensure the integrity of the software development lifecycle.
 
 ---
 
-## 🛠️ Methodology | Metodologia
-1. **Discovery:** Manual mapping and automated fuzzing.
-2. **Exploitation:** Developing a clean PoC to demonstrate business impact.
-3. **Mitigation:** Documenting the secure code fix for the identified flaw.
+## 📂 Taxonomia de Riscos | Risk Taxonomy
+
+| Categoria / Category | Foco da Pesquisa / Research Focus (PT/EN) | Conceito Chave / Key Concept |
+| :--- | :--- | :--- |
+| **A01:2021** | **Controle de Acesso Quebrado:** IDOR, Escalada de Privilégio e Path Traversal. / Broken Access Control: IDOR, Privilege Escalation. | **Access Control Logic** |
+| **A02:2021** | **Falhas Criptográficas:** Exposição de dados, hashes fracos e tráfego inseguro. / Cryptographic Failures: Weak hashing & cleartext data. | **Data-at-Rest Protection** |
+| **A03:2021** | **Injeção:** SQLi (Blind/Time-based), Command Injection (RCE) e XSS Avançado. / Injection: Deep dive into SQLi, RCE and XSS. | **Input Sanitization** |
+| **A04:2021** | **Design Inseguro:** Análise de falhas na arquitetura lógica e fluxos de negócio. / Insecure Design: Analysis of architectural flaws. | **Secure Architecture** |
+| **A05:2021** | **Configuração Incorreta:** Endurecimento de servidores e segurança de nuvem. / Security Misconfiguration: Server hardening & cloud security. | **Hardening Protocols** |
+| **A06:2021** | **Componentes Vulneráveis:** Análise de CVEs e Auditoria de Supply Chain. / Vulnerable Components: CVE research & Supply Chain auditing. | **Dependency Integrity** |
+| **A07:2021** | **Falhas de Identificação:** Vulnerabilidades em MFA, Gestão de Sessão e Auth. / Identification Failures: MFA Bypass & Session Management. | **Identity Management** |
+| **A08:2021** | **Integridade de Software:** Desserialização insegura e segurança em CI/CD. / Software Integrity: Insecure deserialization & CI/CD security. | **Pipeline Security** |
+| **A09:2021** | **Falhas de Monitoramento:** Diagnóstico de visibilidade e integridade de Logs. / Monitoring Failures: Visibility diagnostics & Log integrity. | **Observability & Logs** |
+| **A10:2021** | **SSRF:** Falsificação de requisição do lado do servidor e Metadados Cloud. / SSRF: Server-Side Request Forgery & Cloud Metadata. | **Server Trust Models** |
 
 ---
-<p align="center">
-  <b>Focus: Bug Bounty & Freelance High-Performance Auditing</b>
-</p>
+
+## 🛠️ Metodologia de Engenharia (Engineering Methodology)
+
+Para cada laboratório desenvolvido neste módulo, é aplicado um rigoroso protocolo de auditoria e engenharia:
+
+1.  **Environment Setup (Reprodução):** Criação de um ambiente isolado (Node.js/Docker) que emula fielmente a vulnerabilidade.
+2.  **Vulnerability Analysis (Análise):** Documentação técnica de como a falha ocorre no nível da memória, do motor de execução (V8) ou do protocolo de rede.
+3.  **Remediation & Hardening (Blindagem):** Implementação da solução definitiva utilizando princípios de **Zero Trust**, **Secure Coding** e arquitetura defensiva.
+
+---
+
+## 🚀 Diferencial Profissional (Professional Edge)
+
+> [!IMPORTANT]
+> **Security-by-Design:** Minha pesquisa não foca apenas na exploração técnica, mas na **prevenção estratégica**. Este laboratório demonstra maturidade para atuar em projetos de alta complexidade onde a segurança é tratada como um requisito não-funcional prioritário, protegendo o negócio contra vetores de ataque modernos.
+
+---
+
+### 👨‍💻 Autor
+**Kauan Oliveira** | Software Engineer & Security Researcher
